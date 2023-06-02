@@ -114,10 +114,9 @@ combobox2 = ttk.Combobox(top,
 combobox2.place(x=480, y=500)
 combobox2["values"] = ("Small", 
                  "Medium", 
-                 "Big",
-                 "cone")
+                 "Big")
+         
             
-
 pesan_berapa_gelato = Label (top, text = "Berapa Gelato yang ingin anda pesan : ",
                       font=('Algerian', 15), 
                       background="#dd429d", 
